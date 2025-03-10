@@ -286,7 +286,7 @@ textElements.forEach(text => {
 
 
 gsap.from(".logoo", {
-  x: -500,
+  x: -100,
   opacity: 0,
   duration: 3,
   ease: "power3.out",
