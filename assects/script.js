@@ -285,17 +285,7 @@ textElements.forEach(text => {
 });
 
 
-gsap.from(".logoo", {
-  x: -100,
-  opacity: 0,
-  duration: 3,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: ".logoo",
-    start: "top 90%",
-    toggleActions: "play none none none",
-  },
-});
+
 
 gsap.from(".heading", {
   x: 500,
